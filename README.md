@@ -5,6 +5,7 @@ Projeto de exemplo para renderizar somente as opções desejadas do ReportViewer
 
 
 ## Método de Extensão para o ReportViewer
+Usando reflexão para obter a propriedade m_isVible da Lista de opções de renderização do ReportViewer e setando o Value
 
 ```vb
 Imports System.Runtime.CompilerServices
@@ -27,6 +28,7 @@ End Module
 ```
 
 ## Tratamento no ASPX
+No evento Load do ReportViewer setamos as propriedades de PDF, WORDOPENXML, EXCELOPENXML
 
 ```vb
 Imports Microsoft.Reporting.WebForms

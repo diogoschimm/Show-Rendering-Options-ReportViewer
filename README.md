@@ -1,6 +1,8 @@
 # Show-Rendering-Options-ReportViewer
 Projeto de exemplo para renderizar somente as opções desejadas do ReportViewer em WebForms
 
+![image](https://user-images.githubusercontent.com/30643035/101633305-6d686780-39fd-11eb-84db-3a1839b6c616.png)
+
 
 ## Método de Extensão para o ReportViewer
 
